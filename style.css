@@ -126,3 +126,108 @@ body {
     text-decoration: none;
     color: black;
 }
+
+/* [footer]のスタイルシート */
+
+.block-footer p {
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0 20px;
+}
+
+
+
+/* スマホ用のスタイルシート スマホなら480pxが多い、タブレットもなら767 */
+
+@media screen and (max-width: 767px) {
+   body {
+       min-width:100%;
+   }
+    .item-list {
+        min-width:100%;
+    }
+    .icon-list {
+        min-width:100%;
+    }
+    .works-list {
+        min-width:100%;
+    }
+    .works-list li {
+        min-width:100%;
+        float:none;
+        margin-right:0;
+        margin-bottom:30px
+    }
+    .works-list li h3 {
+        font-size:20px;
+        margin:5px 0;
+    }
+
+    .works-list li span {
+        font-size:14px;
+    }
+    
+/* headerのスタイルシート */
+
+.block-header {
+    padding: 0 10px 10px;
+    box-shadow: 0px 8px 8px -5px rgb(204 204 204 / 30%);
+}
+
+.block-header a {
+    font-size: 31px;
+}
+    
+/* [main]のスタイルシート */
+
+.block-main{
+    margin: 10px;
+}
+
+/* [profile]のスタイルシート */
+
+.box-profile {
+    padding:0 10px ;
+}
+
+.item-list{
+    width: 100%;
+}
+
+.item-list b{
+    font-size: 18px;
+}
+
+.item-list p{
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list{
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px 10px 0;
+    padding: 0;
+    display: flex;
+    -webkit-justify-content: center;
+}
+
+.icon-list li{
+    margin-right: 25px;
+}
+
+/* [works]のスタイルシート */
+　.box-works {
+     margin:60px 0 0; 
+     padding:0 10px;
+ }
+
+    
+
+    
+    
+    
+}
